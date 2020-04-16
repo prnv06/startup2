@@ -1,0 +1,124 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Minute Chef - Home</title>
+	<link href="https://fonts.googleapis.com/css2?family=Roboto&display=swap" rel="stylesheet"> <!-- font-family: 'Roboto', sans-serif; -->
+	<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css" integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
+	<link rel="stylesheet" type="text/css" href="style.css">
+	<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+  	<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.16.0/umd/popper.min.js"></script>
+ 	 <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js"></script>
+</head>
+
+<body>
+
+	<nav class="navbar nav fixed-top order-2">
+		<a class="navbar-brand" href="index.html"><img src="https://cmkt-image-prd.freetls.fastly.net/0.1.0/ps/7448961/600/400/m2/fpnw/wm0/masterchef_logo-.jpg?1576074063&s=5fb07882cb04f10e5523fb6b51b3e526" width="30" height="30" alt=""></a>
+		<a class="nav-item" href="#recipepage">Recipe</a>
+		<a class="nav-item" href="#ingredients">Ingredients</a>
+		<a class="nav-item" href="about.html">About</a>
+		<a class="nav-item" href="#contact">Contact</a>
+	</nav>
+
+	<div class="homepage" style="background-image: url(backgroundimage.jpg); background-attachment: fixed;">
+		<div class="container">
+			<div class="row">
+				<h1 class="mainheader">Not sure what to cook for your next meal?</h1>
+			</div>
+			<div class="row" style="padding-top: 3em;">
+				<button class="btn1" type="button" onclick="window.location.href='#recipepage'">Let us help you!</a>
+			</div>
+		</div>
+	</div>
+
+	<div id="recipepage" class="recipepage">
+		<div class="container">
+			<div class="row">
+				<h1 class="quickrecipeheader">Quick Recipes</h1>
+			</div>
+			<div class="row">
+				<div id="demo" class="carousel slide" data-ride="carousel">
+
+				  <!-- Indicators -->
+				  <ul class="carousel-indicators">
+				    <li data-target="#demo" data-slide-to="0" class="active"></li>
+				    <li data-target="#demo" data-slide-to="1"></li>
+				    <li data-target="#demo" data-slide-to="2"></li>
+				  </ul>
+
+				  <!-- The slideshow -->
+				  <div class="carousel-inner">
+				    <div class="carousel-item active">
+				      <img src="https://www.cleaneatingmag.com/.image/t_share/MTQ0NzQxNjQ5ODcyMzk3NDgw/kung-pao-chicken.jpg" width="800" height="450" alt="">
+				      <div class="carousel-caption">
+				      		<h3>Kung Pao Chicken</h3>
+				      		<p>A spicy chinese chicken stir fry!</p>
+				      </div>
+				    </div>
+				    <div class="carousel-item">
+				    	<img src="https://bloximages.newyork1.vip.townnews.com/fredericknewspost.com/content/tncms/assets/v3/editorial/f/a3/fa32d295-dd96-5803-8d90-de125cecac38/5c5e1b11bbf81.image.jpg?resize=1200%2C675" width="800" height="450" alt="">
+				    	<div class="carousel-caption">
+				      		<h3>Butter Chicken</h3>
+				      		<p>A rich tomato based Indian curry, true soul food!</p>
+				      </div>
+				    </div>
+				    <div class="carousel-item">
+				      <img src="https://www.visitcanton.com/images/made/images/remote/https_files.idssasp.com/public/C204/02f0fd10-8597-46bf-9798-c65f3292b2b3/28144a7c-514a-4dda-a090-56d0e6d9c7e0_1200_675auto_s_c1.png" width="800" height="450" alt="">
+				      <div class="carousel-caption">
+				      		<h3>Turkish Kebab</h3>
+				      		<p>A mildly spiced kebab recipe, ready in minutes!</p>
+				      </div>
+				    </div>
+				  </div>
+
+				  <!-- Left and right controls -->
+				  <a class="carousel-control-prev" href="#demo" data-slide="prev">
+				    <span class="carousel-control-prev-icon"></span>
+				  </a>
+				  <a class="carousel-control-next" href="#demo" data-slide="next">
+				    <span class="carousel-control-next-icon"></span>
+				  </a>
+				</div>
+			</div>
+		</div>
+	</div>
+
+	<div id="ingredients" class="quickbuypage">
+		<div class="container">
+			<h1 class="row quickrecipeheader">Shop Ingredients</h1>
+			<div class="row">
+				<div class="column col-4"><img src="https://bloximages.newyork1.vip.townnews.com/fredericknewspost.com/content/tncms/assets/v3/editorial/f/a3/fa32d295-dd96-5803-8d90-de125cecac38/5c5e1b11bbf81.image.jpg?resize=1200%2C675" width="350" height="197"></div>
+				<div class="column col-2"><img src="garlic.jpg" height="197"></div>
+				<div class="column col-3"><img src="https://images.unsplash.com/photo-1526346698789-22fd84314424?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=1650&q=80" height="197"></div>
+				<div class="column col-4"><img src="https://images.unsplash.com/photo-1535189487909-a262ad10c165?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=1589&q=80" width="300" height="197"></div>
+			</div>
+			<div class="row" style="padding-top: 1em;">
+				<div class="column col-2"><img src="https://images.unsplash.com/photo-1516684732162-798a0062be99?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=668&q=80" height="197"></div>
+				<div class="column col-3"><img src="https://images.unsplash.com/photo-1564149504298-00c351fd7f16?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=1650&q=80" height="197"></div>
+				<div class="column col-4"><img src="https://images.unsplash.com/photo-1582556135623-653b87486f21?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=1595&q=80" height="197" style="padding-right: 0em;"></div>
+				<div class="column col-3"><img src="https://www.visitcanton.com/images/made/images/remote/https_files.idssasp.com/public/C204/02f0fd10-8597-46bf-9798-c65f3292b2b3/28144a7c-514a-4dda-a090-56d0e6d9c7e0_1200_675auto_s_c1.png" height="197"></div>
+			</div>
+		</div>
+	</div>
+
+	<div id="contact" class="contactpage">
+		<div class="container">
+			<h1 class="row quickrecipeheader" style="color: #fff;">Contact Us</h1>
+			<div class="row">
+				<form>
+					<label for="fname">First name:</label>
+					<input type="text" id="fname"><br>
+					<label for="lname">Last name:</label>
+					<input type="text" id="lname"><br>
+					<label for="email">Email:</label>
+					<input type="email" id="email" required><br>
+					<label for="comment">Comments:</label>
+					<input type="text" id="comment" style="width: 500px;"><br><br>
+					<input type="submit" style="background-color: transparent; border-radius: 10px;">
+				</form>
+			</div>
+		</div>
+	</div>
+
+</body>
+</html>
